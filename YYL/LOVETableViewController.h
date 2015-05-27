@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  LOVETableViewController.h
 //  YYL
 //
 //  Created by admin on 15/5/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface LOVETableViewController : UITableViewController
 
 @end
-

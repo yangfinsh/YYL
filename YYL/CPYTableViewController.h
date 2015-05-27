@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  CPYTableViewController.h
 //  YYL
 //
 //  Created by admin on 15/5/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface CPYTableViewController : UITableViewController
 
 @end
-
