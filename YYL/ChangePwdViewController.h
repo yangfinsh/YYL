@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ChangePwdViewController : UIViewController
-
+@property (strong, nonatomic) UITextField *oldPWD;
+@property (strong, nonatomic) UITextField *nwPWD;
+@property (strong, nonatomic) UITextField *comPWD;
 @end

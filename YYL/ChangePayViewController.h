@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ChangePayViewController : UIViewController
-
+@property (strong, nonatomic) UITextField *text;
 @end

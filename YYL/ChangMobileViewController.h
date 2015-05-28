@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ChangMobileViewController : UIViewController
-
+@property (strong, nonatomic)UITextField *text;
 @end

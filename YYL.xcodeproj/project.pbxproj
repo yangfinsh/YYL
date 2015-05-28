@@ -34,6 +34,9 @@
 		845202E51B15A26E00181656 /* ChangeEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202E41B15A26E00181656 /* ChangeEmailViewController.m */; };
 		845202E81B15A28400181656 /* ChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202E71B15A28400181656 /* ChangePwdViewController.m */; };
 		845202EB1B15A29400181656 /* ChangePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202EA1B15A29400181656 /* ChangePayViewController.m */; };
+		84D20D0E1B16F22000554AA7 /* addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D20D0D1B16F22000554AA7 /* addimage.png */; };
+		84D20D111B170BFA00554AA7 /* GuanYuLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D101B170BFA00554AA7 /* GuanYuLightViewController.m */; };
+		84D20D141B170C2500554AA7 /* JuanZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D131B170C2500554AA7 /* JuanZhuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,11 @@
 		845202E71B15A28400181656 /* ChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePwdViewController.m; sourceTree = "<group>"; };
 		845202E91B15A29400181656 /* ChangePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePayViewController.h; sourceTree = "<group>"; };
 		845202EA1B15A29400181656 /* ChangePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePayViewController.m; sourceTree = "<group>"; };
+		84D20D0D1B16F22000554AA7 /* addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addimage.png; sourceTree = "<group>"; };
+		84D20D0F1B170BFA00554AA7 /* GuanYuLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanYuLightViewController.h; sourceTree = "<group>"; };
+		84D20D101B170BFA00554AA7 /* GuanYuLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanYuLightViewController.m; sourceTree = "<group>"; };
+		84D20D121B170C2500554AA7 /* JuanZhuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuanZhuViewController.h; sourceTree = "<group>"; };
+		84D20D131B170C2500554AA7 /* JuanZhuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuanZhuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +175,7 @@
 		8432DC241B13212B00599F14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84D20D0D1B16F22000554AA7 /* addimage.png */,
 				841444C01B141F17003CA64D /* img2.png */,
 				841444BE1B141C4B003CA64D /* img.png */,
 				8432DC251B13212B00599F14 /* Info.plist */,
@@ -207,6 +216,10 @@
 				845202D61B15952B00181656 /* GuanYuViewController.m */,
 				845202D81B15978100181656 /* GeRenViewController.h */,
 				845202D91B15978100181656 /* GeRenViewController.m */,
+				84D20D0F1B170BFA00554AA7 /* GuanYuLightViewController.h */,
+				84D20D101B170BFA00554AA7 /* GuanYuLightViewController.m */,
+				84D20D121B170C2500554AA7 /* JuanZhuViewController.h */,
+				84D20D131B170C2500554AA7 /* JuanZhuViewController.m */,
 			);
 			name = leftview;
 			sourceTree = "<group>";
@@ -315,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D20D0E1B16F22000554AA7 /* addimage.png in Resources */,
 				8432DC5C1B132C6500599F14 /* MSGViewController.xib in Resources */,
 				8432DC6B1B132CED00599F14 /* KDGTableViewController.xib in Resources */,
 				8432DC611B132CB500599F14 /* CPYTableViewController.xib in Resources */,
@@ -354,6 +368,8 @@
 				845202EB1B15A29400181656 /* ChangePayViewController.m in Sources */,
 				845202D71B15952B00181656 /* GuanYuViewController.m in Sources */,
 				8432DC601B132CB500599F14 /* CPYTableViewController.m in Sources */,
+				84D20D141B170C2500554AA7 /* JuanZhuViewController.m in Sources */,
+				84D20D111B170BFA00554AA7 /* GuanYuLightViewController.m in Sources */,
 				8432DC271B13212B00599F14 /* main.m in Sources */,
 				8432DC651B132CCE00599F14 /* LOVETableViewController.m in Sources */,
 				8432DC561B132C3400599F14 /* IndexViewController.m in Sources */,

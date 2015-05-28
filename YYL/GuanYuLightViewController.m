@@ -1,18 +1,18 @@
 //
-//  FanKuiViewController.m
+//  GuanYuLightViewController.m
 //  YYL
 //
-//  Created by admin on 15/5/27.
+//  Created by admin on 15/5/28.
 //  Copyright (c) 2015年 admin. All rights reserved.
 //
 
-#import "FanKuiViewController.h"
+#import "GuanYuLightViewController.h"
 
-@interface FanKuiViewController ()
+@interface GuanYuLightViewController ()
 
 @end
 
-@implementation FanKuiViewController
+@implementation GuanYuLightViewController
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -20,7 +20,10 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationItem.title=@"关于light";
+    UITextView *textview=[[UITextView alloc]initWithFrame:CGRectMake(20, 60, [UIScreen mainScreen].bounds.size.width-40, 200)];
+    [textview setText:@"我是一个大天才"];
+    [self.view addSubview:textview];
 }
 
 - (void)didReceiveMemoryWarning {

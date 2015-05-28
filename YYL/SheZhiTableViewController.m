@@ -36,26 +36,55 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return 4;
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    static NSString *reuseIdentifier=@"identifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+    if (!cell) {
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier: reuseIdentifier];
+    }
+    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    cell.imageView.image=[UIImage imageNamed:@"img.png"];
+    cell.textLabel.text=@"手机号";
+    cell.detailTextLabel.text=@"123456";
     return cell;
 }
-*/
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+        {
+            NSLog(@"通用");
+        }
+            break;
+        case 1:
+        {
+            NSLog(@"新消息通知");
+        }
+            break;
+        case 2:
+        {
+            NSLog(@"隐私");
+        }
+            break;
+        case 3:
+        {
+            NSLog(@"退出登陆");
+        }
+            break;
+        default:
+            break;
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.

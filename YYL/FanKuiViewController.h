@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FanKuiViewController : UIViewController
-
+@interface FanKuiViewController : UIViewController<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
+@property (strong, nonatomic)UIButton *addButton;
 @end
