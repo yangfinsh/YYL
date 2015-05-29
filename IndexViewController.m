@@ -14,6 +14,7 @@
 #import "FanKuiViewController.h"
 #import "GuanYuViewController.h"
 #import "GeRenViewController.h"
+#import "ReadMoreViewController.h"
 @interface IndexViewController ()
 
 @end
@@ -27,9 +28,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(showLeftView)];//添加手势
-    //    self.navigationItem.title=@"首页";
-    //    UIBarButtonItem *leftbutton=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"img.png"] style:UIBarButtonItemStylePlain target:self action:@selector(showLeftView)];
-    //    self.navigationItem.leftBarButtonItem=leftbutton;
     [self initslider];//增加左视图
 }
 ///显示左视图
@@ -161,18 +159,21 @@
     self.scroll=[[UIScrollView alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.origin.x, [UIScreen mainScreen].bounds.origin.y+60, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     [self.scroll setContentSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height*2)];
     [self.mainView addSubview:self.scroll];
-//    UIImageView *imageview=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
-//    [imageview setImage:[UIImage imageNamed:@"img2.png"]];
-//    [self.scroll addSubview:imageview];
-//
+
     UIImage *images=[UIImage imageNamed:@"img2.png"];
     UIButton *button=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
     [button setImage:[images scaleToSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 200)] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(readMore:) forControlEvents:UIControlEventTouchUpInside];
     [self.scroll addSubview:button];
+}
+-(void)readMore:(UIButton*)sender
+{
+    NSLog(@"read more");
+    ReadMoreViewController *readmore=[[ReadMoreViewController alloc]init];
+    [self.navigationController pushViewController:readmore animated:false];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

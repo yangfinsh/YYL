@@ -15,15 +15,9 @@
 		8432DC351B13212B00599F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC341B13212B00599F14 /* Images.xcassets */; };
 		8432DC441B13212B00599F14 /* YYLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC431B13212B00599F14 /* YYLTests.m */; };
 		8432DC561B132C3400599F14 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC541B132C3400599F14 /* IndexViewController.m */; };
-		8432DC571B132C3400599F14 /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC551B132C3400599F14 /* IndexViewController.xib */; };
 		8432DC5B1B132C6500599F14 /* MSGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC591B132C6500599F14 /* MSGViewController.m */; };
-		8432DC5C1B132C6500599F14 /* MSGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC5A1B132C6500599F14 /* MSGViewController.xib */; };
-		8432DC601B132CB500599F14 /* CPYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC5E1B132CB500599F14 /* CPYTableViewController.m */; };
-		8432DC611B132CB500599F14 /* CPYTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC5F1B132CB500599F14 /* CPYTableViewController.xib */; };
 		8432DC651B132CCE00599F14 /* LOVETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC631B132CCE00599F14 /* LOVETableViewController.m */; };
-		8432DC661B132CCE00599F14 /* LOVETableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC641B132CCE00599F14 /* LOVETableViewController.xib */; };
 		8432DC6A1B132CED00599F14 /* KDGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432DC681B132CED00599F14 /* KDGTableViewController.m */; };
-		8432DC6B1B132CED00599F14 /* KDGTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432DC691B132CED00599F14 /* KDGTableViewController.xib */; };
 		845202CB1B1594AF00181656 /* TongZhiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202CA1B1594AF00181656 /* TongZhiTableViewController.m */; };
 		845202CE1B1594D300181656 /* ZhangHuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202CD1B1594D300181656 /* ZhangHuTableViewController.m */; };
 		845202D11B1594FD00181656 /* SheZhiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845202D01B1594FD00181656 /* SheZhiTableViewController.m */; };
@@ -37,6 +31,10 @@
 		84D20D0E1B16F22000554AA7 /* addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D20D0D1B16F22000554AA7 /* addimage.png */; };
 		84D20D111B170BFA00554AA7 /* GuanYuLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D101B170BFA00554AA7 /* GuanYuLightViewController.m */; };
 		84D20D141B170C2500554AA7 /* JuanZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D131B170C2500554AA7 /* JuanZhuViewController.m */; };
+		84D20D1D1B17185000554AA7 /* ReadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D1C1B17185000554AA7 /* ReadMoreViewController.m */; };
+		84D20D211B171CED00554AA7 /* CPYListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D201B171CED00554AA7 /* CPYListTableViewController.m */; };
+		84D20D241B171E4600554AA7 /* CPYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D231B171E4600554AA7 /* CPYTableViewController.m */; };
+		84D20D581B17FFD200554AA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D20D571B17FFD200554AA7 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,19 +63,12 @@
 		8432DC431B13212B00599F14 /* YYLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLTests.m; sourceTree = "<group>"; };
 		8432DC531B132C3400599F14 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexViewController.h; path = ../IndexViewController.h; sourceTree = "<group>"; };
 		8432DC541B132C3400599F14 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexViewController.m; path = ../IndexViewController.m; sourceTree = "<group>"; };
-		8432DC551B132C3400599F14 /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IndexViewController.xib; path = ../IndexViewController.xib; sourceTree = "<group>"; };
 		8432DC581B132C6500599F14 /* MSGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGViewController.h; sourceTree = "<group>"; };
 		8432DC591B132C6500599F14 /* MSGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGViewController.m; sourceTree = "<group>"; };
-		8432DC5A1B132C6500599F14 /* MSGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGViewController.xib; sourceTree = "<group>"; };
-		8432DC5D1B132CB500599F14 /* CPYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPYTableViewController.h; sourceTree = "<group>"; };
-		8432DC5E1B132CB500599F14 /* CPYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPYTableViewController.m; sourceTree = "<group>"; };
-		8432DC5F1B132CB500599F14 /* CPYTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPYTableViewController.xib; sourceTree = "<group>"; };
 		8432DC621B132CCE00599F14 /* LOVETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOVETableViewController.h; sourceTree = "<group>"; };
 		8432DC631B132CCE00599F14 /* LOVETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOVETableViewController.m; sourceTree = "<group>"; };
-		8432DC641B132CCE00599F14 /* LOVETableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LOVETableViewController.xib; sourceTree = "<group>"; };
 		8432DC671B132CED00599F14 /* KDGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDGTableViewController.h; sourceTree = "<group>"; };
 		8432DC681B132CED00599F14 /* KDGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDGTableViewController.m; sourceTree = "<group>"; };
-		8432DC691B132CED00599F14 /* KDGTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDGTableViewController.xib; sourceTree = "<group>"; };
 		845202C91B1594AF00181656 /* TongZhiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TongZhiTableViewController.h; sourceTree = "<group>"; };
 		845202CA1B1594AF00181656 /* TongZhiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TongZhiTableViewController.m; sourceTree = "<group>"; };
 		845202CC1B1594D300181656 /* ZhangHuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhangHuTableViewController.h; sourceTree = "<group>"; };
@@ -104,6 +95,13 @@
 		84D20D101B170BFA00554AA7 /* GuanYuLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanYuLightViewController.m; sourceTree = "<group>"; };
 		84D20D121B170C2500554AA7 /* JuanZhuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuanZhuViewController.h; sourceTree = "<group>"; };
 		84D20D131B170C2500554AA7 /* JuanZhuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuanZhuViewController.m; sourceTree = "<group>"; };
+		84D20D1B1B17185000554AA7 /* ReadMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadMoreViewController.h; sourceTree = "<group>"; };
+		84D20D1C1B17185000554AA7 /* ReadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadMoreViewController.m; sourceTree = "<group>"; };
+		84D20D1F1B171CED00554AA7 /* CPYListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPYListTableViewController.h; sourceTree = "<group>"; };
+		84D20D201B171CED00554AA7 /* CPYListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPYListTableViewController.m; sourceTree = "<group>"; };
+		84D20D221B171E4600554AA7 /* CPYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPYTableViewController.h; sourceTree = "<group>"; };
+		84D20D231B171E4600554AA7 /* CPYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPYTableViewController.m; sourceTree = "<group>"; };
+		84D20D571B17FFD200554AA7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,28 +143,15 @@
 		8432DC231B13212B00599F14 /* YYL */ = {
 			isa = PBXGroup;
 			children = (
+				8432DC281B13212B00599F14 /* AppDelegate.h */,
+				8432DC291B13212B00599F14 /* AppDelegate.m */,
 				845202DE1B159A1A00181656 /* COMURL.h */,
 				845202DB1B1598BF00181656 /* EXT */,
 				845202C81B156EEC00181656 /* leftview */,
 				845202DF1B159E9900181656 /* MoreFunc */,
-				8432DC281B13212B00599F14 /* AppDelegate.h */,
-				8432DC291B13212B00599F14 /* AppDelegate.m */,
-				8432DC531B132C3400599F14 /* IndexViewController.h */,
-				8432DC541B132C3400599F14 /* IndexViewController.m */,
-				8432DC551B132C3400599F14 /* IndexViewController.xib */,
-				8432DC581B132C6500599F14 /* MSGViewController.h */,
-				8432DC591B132C6500599F14 /* MSGViewController.m */,
-				8432DC5A1B132C6500599F14 /* MSGViewController.xib */,
-				8432DC5D1B132CB500599F14 /* CPYTableViewController.h */,
-				8432DC5E1B132CB500599F14 /* CPYTableViewController.m */,
-				8432DC5F1B132CB500599F14 /* CPYTableViewController.xib */,
-				8432DC621B132CCE00599F14 /* LOVETableViewController.h */,
-				8432DC631B132CCE00599F14 /* LOVETableViewController.m */,
-				8432DC641B132CCE00599F14 /* LOVETableViewController.xib */,
-				8432DC671B132CED00599F14 /* KDGTableViewController.h */,
-				8432DC681B132CED00599F14 /* KDGTableViewController.m */,
-				8432DC691B132CED00599F14 /* KDGTableViewController.xib */,
+				84D20D1E1B1718C700554AA7 /* MainPage' */,
 				8432DC341B13212B00599F14 /* Images.xcassets */,
+				84D20D571B17FFD200554AA7 /* LaunchScreen.xib */,
 				8432DC241B13212B00599F14 /* Supporting Files */,
 			);
 			path = YYL;
@@ -244,8 +229,29 @@
 				845202E71B15A28400181656 /* ChangePwdViewController.m */,
 				845202E91B15A29400181656 /* ChangePayViewController.h */,
 				845202EA1B15A29400181656 /* ChangePayViewController.m */,
+				84D20D1F1B171CED00554AA7 /* CPYListTableViewController.h */,
+				84D20D201B171CED00554AA7 /* CPYListTableViewController.m */,
 			);
 			name = MoreFunc;
+			sourceTree = "<group>";
+		};
+		84D20D1E1B1718C700554AA7 /* MainPage' */ = {
+			isa = PBXGroup;
+			children = (
+				8432DC531B132C3400599F14 /* IndexViewController.h */,
+				8432DC541B132C3400599F14 /* IndexViewController.m */,
+				8432DC581B132C6500599F14 /* MSGViewController.h */,
+				8432DC591B132C6500599F14 /* MSGViewController.m */,
+				84D20D221B171E4600554AA7 /* CPYTableViewController.h */,
+				84D20D231B171E4600554AA7 /* CPYTableViewController.m */,
+				8432DC621B132CCE00599F14 /* LOVETableViewController.h */,
+				8432DC631B132CCE00599F14 /* LOVETableViewController.m */,
+				8432DC671B132CED00599F14 /* KDGTableViewController.h */,
+				8432DC681B132CED00599F14 /* KDGTableViewController.m */,
+				84D20D1B1B17185000554AA7 /* ReadMoreViewController.h */,
+				84D20D1C1B17185000554AA7 /* ReadMoreViewController.m */,
+			);
+			name = "MainPage'";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,14 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D20D581B17FFD200554AA7 /* LaunchScreen.xib in Resources */,
 				84D20D0E1B16F22000554AA7 /* addimage.png in Resources */,
-				8432DC5C1B132C6500599F14 /* MSGViewController.xib in Resources */,
-				8432DC6B1B132CED00599F14 /* KDGTableViewController.xib in Resources */,
-				8432DC611B132CB500599F14 /* CPYTableViewController.xib in Resources */,
-				8432DC571B132C3400599F14 /* IndexViewController.xib in Resources */,
 				841444C11B141F17003CA64D /* img2.png in Resources */,
 				841444BF1B141C4B003CA64D /* img.png in Resources */,
-				8432DC661B132CCE00599F14 /* LOVETableViewController.xib in Resources */,
 				8432DC351B13212B00599F14 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,10 +366,12 @@
 				845202DA1B15978100181656 /* GeRenViewController.m in Sources */,
 				845202D11B1594FD00181656 /* SheZhiTableViewController.m in Sources */,
 				845202CE1B1594D300181656 /* ZhangHuTableViewController.m in Sources */,
+				84D20D211B171CED00554AA7 /* CPYListTableViewController.m in Sources */,
 				845202CB1B1594AF00181656 /* TongZhiTableViewController.m in Sources */,
 				845202EB1B15A29400181656 /* ChangePayViewController.m in Sources */,
 				845202D71B15952B00181656 /* GuanYuViewController.m in Sources */,
-				8432DC601B132CB500599F14 /* CPYTableViewController.m in Sources */,
+				84D20D241B171E4600554AA7 /* CPYTableViewController.m in Sources */,
+				84D20D1D1B17185000554AA7 /* ReadMoreViewController.m in Sources */,
 				84D20D141B170C2500554AA7 /* JuanZhuViewController.m in Sources */,
 				84D20D111B170BFA00554AA7 /* GuanYuLightViewController.m in Sources */,
 				8432DC271B13212B00599F14 /* main.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  CPYTableViewController.h
+//  CPYListTableViewController.h
 //  YYL
 //
 //  Created by admin on 15/5/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPYTableViewController : UIViewController
+@interface CPYListTableViewController : UITableViewController
 
 @end

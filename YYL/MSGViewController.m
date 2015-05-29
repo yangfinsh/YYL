@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UINavigationBar *bar=[[UINavigationBar alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 60)];
-//    [bar setTintColor:[UIColor blueColor]];
-//    [bar setBackgroundColor:[UIColor blueColor]];
     [bar setBarTintColor:[UIColor lightGrayColor]];
     UIBarButtonItem *rightbutton=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"img.png"] style:UIBarButtonItemStylePlain target:self action:@selector(addFriends)];
     UINavigationItem *item=[[UINavigationItem alloc]initWithTitle:@"消息"];
