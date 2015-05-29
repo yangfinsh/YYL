@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPYTableViewController : UIViewController
-
+@interface CPYTableViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) UITableView *tableView;
 @end

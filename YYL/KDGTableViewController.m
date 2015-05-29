@@ -13,7 +13,11 @@
 @end
 
 @implementation KDGTableViewController
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden=true;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     

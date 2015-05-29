@@ -13,7 +13,11 @@
 @end
 
 @implementation MSGViewController
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden=true;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     UINavigationBar *bar=[[UINavigationBar alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 60)];

@@ -35,6 +35,7 @@
 		84D20D211B171CED00554AA7 /* CPYListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D201B171CED00554AA7 /* CPYListTableViewController.m */; };
 		84D20D241B171E4600554AA7 /* CPYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D231B171E4600554AA7 /* CPYTableViewController.m */; };
 		84D20D581B17FFD200554AA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D20D571B17FFD200554AA7 /* LaunchScreen.xib */; };
+		84D20D5B1B180F5A00554AA7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D20D5A1B180F5A00554AA7 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		84D20D221B171E4600554AA7 /* CPYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPYTableViewController.h; sourceTree = "<group>"; };
 		84D20D231B171E4600554AA7 /* CPYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPYTableViewController.m; sourceTree = "<group>"; };
 		84D20D571B17FFD200554AA7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		84D20D591B180F5A00554AA7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84D20D5A1B180F5A00554AA7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +234,8 @@
 				845202EA1B15A29400181656 /* ChangePayViewController.m */,
 				84D20D1F1B171CED00554AA7 /* CPYListTableViewController.h */,
 				84D20D201B171CED00554AA7 /* CPYListTableViewController.m */,
+				84D20D591B180F5A00554AA7 /* DetailViewController.h */,
+				84D20D5A1B180F5A00554AA7 /* DetailViewController.m */,
 			);
 			name = MoreFunc;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 			files = (
 				8432DC6A1B132CED00599F14 /* KDGTableViewController.m in Sources */,
 				845202E81B15A28400181656 /* ChangePwdViewController.m in Sources */,
+				84D20D5B1B180F5A00554AA7 /* DetailViewController.m in Sources */,
 				8432DC2A1B13212B00599F14 /* AppDelegate.m in Sources */,
 				845202E21B159F0400181656 /* ChangMobileViewController.m in Sources */,
 				845202E51B15A26E00181656 /* ChangeEmailViewController.m in Sources */,

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CPYListTableViewController : UITableViewController
-
+@property (strong, nonatomic) NSString *titleString;
 @end
