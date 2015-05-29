@@ -13,12 +13,27 @@
 @end
 
 @implementation DetailViewController
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden=false;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationItem.title=@"sssss";
+    [self initbutton];
 }
-
+-(void)initbutton
+{
+    UIButton *button=[[UIButton alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-30, 200, 70, 70)];
+    [button setImage:[UIImage imageNamed:@"img2.png"] forState:UIControlStateNormal];
+    [button.layer setMasksToBounds:true];
+    [button.layer setCornerRadius:35.0];
+    [self.view addSubview:button];
+    UIButton *leftbutton=[[UIButton alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/5, 300, 70, 70)];
+    [leftbutton setTitle:@"学霸" forState:UIControlStateNormal];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -7,7 +7,7 @@
 //
 
 #import "CPYListTableViewController.h"
-
+#import "DetailViewController.h"
 @interface CPYListTableViewController ()
 
 @end
@@ -90,6 +90,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"点击");
+    DetailViewController *detail=[[DetailViewController alloc]init];
+    [self.navigationController pushViewController:detail animated:false];
 }
 
 /*
